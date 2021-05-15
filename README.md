@@ -28,7 +28,7 @@ Em março de 2020 ocorreram diversos “circuit-breakers” na B3 (Bolsa de Valo
 
 Usamos inúmeras fontes de dados. Para os fundos e seus retornos empregamos a base da CVM (Comissão de Valores Mobiliários). No caso dos fatores de risco utilizamos as APIs do Yahoo Finance, Quandl, Ipeadata e FRED (Federal Reserve, EUA). As APIs Quandl e  FRED requerem cadastramento prévio. As chaves de acesso não foram mostradas nos programas desenvolvidos aqui e o usuário deve obtê-las antes de usar as respectivas APIs.
 
-O trabalho foi desenvolvido em Python e está estruturado como uma sequência de Jupyter Notebooks que devem ser executados de maneira sequencial, respeitando a ordem XXX_nome_do_arquivo.ipynb onde XXX é o número do notebook. Assim, o notebook cujo nome começa com 000 deve ser executado antes daquele cujo nome começa com 001, e este antes do nomeado “002_.....ipynb” e assim sucessivamente. Também, o usuário deverá alterar o diretório raiz para execução dos códigos. Os códigos foram executados num container Docker com Jupyter Notebook, e o diretório padrão para execução dos códigos é “'/home/jovyan/work/@Fund_Eval/”.
+O trabalho foi desenvolvido em Python e está estruturado como um conjunto de Jupyter Notebooks que devem ser executados de maneira sequencial, respeitando a ordem "XXX_nome_do_arquivo.ipynb" onde XXX é o número do notebook. Assim, o notebook cujo nome começa com 000 deve ser executado antes daquele cujo nome começa com 001, e este antes do nomeado “002_.....ipynb” e assim sucessivamente. Também, o usuário deverá alterar o diretório raiz para execução dos códigos. Os códigos foram executados num container Docker com Jupyter Notebook, e o diretório padrão para execução dos códigos é “'/home/jovyan/work/@Fund_Eval/”. O leitor interessado pode obter informações sobre os containers Docker com Jupyter em [(https://jupyter-docker-stacks.readthedocs.io/en/latest/)].
 
 Coletamos 38 “fatores de risco” diferentes, que correspondem a riscos referentes à renda fixa (pré e pós fixada), câmbio (dólar e euro), volatilidade do câmbio, mercado acionário brasileiro e americano e preços de petróleo. Destes, selecionamos 13 fatores mostrados na próxima tabela.
 
@@ -48,13 +48,14 @@ A amostra consiste em 257 fundos, para os quais calculamos os percentuais relati
 
 A próxima tabela apresenta os percentuais de alocação nos diversos fatores de risco para os dez fundos de maior peso na composição do IHFA.
 
-![Tabela 2](trab_final_fig2.jpg)
+![Tabela 2](https://github.com/barrosm/BIMASTER_CODE_PUBLIC/blob/main/trab_final_fig2.jpg)
 
 O  mapa de calor a seguir mostra os percentuais de alocação nos diversos fatores para os 100 maiores fundos componentes do IHFA.
 
-![Figura 1 - Mapa de Calor](trab_final_fig3.jpg)
+![Figura 1 - Mapa de Calor](https://github.com/barrosm/BIMASTER_CODE_PUBLIC/blob/main/trab_final_fig3.jpg)
 
-Nota-se a predominância em aplicações em títulos públicos. Os fundos têm, em geral, grande exposição a títulos pós-fixados (LTFs, representados pelo índice IMA-S), indexados ao IPCA com prazo até 5 anos (IMA-B5) e pré-fixados de prazo inferior a 1 ano (IRF-M1). Uma parcela bem meonor parece ser alocada em Bolsa de Valores brasileira(GM366_IBVSP366) ou americana (SP500). Alguns poucos fundos parecem ter exposição relevante em dólar. Também, o “alpha”, que representaria a contribuição do gestor acima dos retornos dos fatores a que o fundo está exposto, é zero, ou muito pouco acima de zero. Isso poderia sugerir que os fundos não agregam valor em relação ao que obteria através de uma carteira que simplesmente reproduzisse de maneira passiva os índices empregados aqui como fatores de risco.
+Nota-se a predominância em aplicações em títulos públicos. Os fundos têm, em geral, grande exposição a títulos pós-fixados (LTFs, representados pelo índice IMA-S), indexados ao IPCA com prazo até 5 anos (IMA-B5) e pré-fixados de prazo inferior a 1 ano (IRF-M1). Uma parcela bem menor parece ser alocada em Bolsa de Valores brasileira(GM366_IBVSP366) ou americana (SP500). Alguns poucos fundos parecem ter exposição relevante em dólar. Também, o “alpha”, que representaria a contribuição do gestor acima dos retornos dos fatores a que o fundo está exposto, é zero, ou muito pouco acima de zero. Isso poderia sugerir que os fundos não agregam valor em relação ao que obteria através de uma carteira que simplesmente reproduzisse de maneira passiva os índices empregados aqui como fatores de risco.
+
 
 
 ---

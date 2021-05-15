@@ -1,7 +1,7 @@
 # Fatores de Risco de Fundos Multimercado Brasileiros
 
-#### Aluno: Monica Barros(https://github.com/barrosm)
-#### Orientador: [Nome Sobrenome](https://github.com/FelipeBorgesC)
+#### Aluno: Monica Barros (https://github.com/barrosm)
+#### Orientador: Felipe Borges (https://github.com/FelipeBorgesC)
 
 ---
 
@@ -18,7 +18,7 @@ A indústria de fundos de investimentos no Brasil vem apresentando crescimento e
 
 Estes se caracterizam por uma política de investimentos que envolve vários fatores de risco, sem o compromisso de concentração em nenhum deles. Os multimercados podem aplicar em diferentes mercados (renda fixa, câmbio e ações, entre outros), além de usar derivativos para alavancagem ou proteção da carteira. Eles preveem uma maior liberdade de gestão e buscam oferecer aos investidores um rendimento mais alto que em aplicações conservadoras.
 
-Em 2020 a indústria de fundos cresceu e alcançou, no fim do ano, um patrimônio líquido de R$ 6 trilhões. Isso se deveu, principalmente, à captação positiva nos fundos de ações e multimercado [(https://investnews.com.br/financas/industria-de-fundos-cresce-e-fecha-2020-com-patrimonio-de-r-6-trilhoes/)].
+Em 2020 a indústria de fundos cresceu e alcançou, no fim do ano, um patrimônio líquido de R$ 6 trilhões. Isso se deveu, principalmente, à captação positiva nos fundos de ações e multimercado [https://investnews.com.br/financas/industria-de-fundos-cresce-e-fecha-2020-com-patrimonio-de-r-6-trilhoes/)].
 
 Neste trabalho procuramos identificar quais os fatores de risco que “explicam” o estilo dos principais fundos multimercado do país. A metolologia empregada é chamada de “Análise de Estilo baseada no retorno” (Return Based Style Analysis, RBSA) e foi originalmente proposta por William Sharpe num artigo publicado em 1988.  A RBSA busca inferir a que classes de ativos um fundo está exposto baseando-se apenas na série de retornos.
 
